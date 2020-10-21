@@ -1,0 +1,52 @@
+/* ===========================================
+Atom:             LinkedIn Styles 
+Theme:            Light
+Author:           Mauricio Vuljevas
+Author URI:       https://www.mvuljevas.com
+Atom Version:     v0.1.0
+Atom Last Update: 10/21/2020
+=========================================== */
+
+.EntityPhoto-square-1, 
+.EntityPhoto-square-2,
+.EntityPhoto-square-3,
+.EntityPhoto-square-4,
+.EntityPhoto-square-5, .learning-recommendation-item__image {
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+header.global-nav {
+  box-shadow: 0 0 50px 3px rgba(69,79,91,0.2);
+}
+
+/* !Enable this if you're using an ad blocker */
+div.self-focused.ember-view {
+  /* padding-top: 25px; */
+}
+
+ul.global-footer-compact__content.global-footer-compact__links {
+  display: none;
+}
+
+[data-control-name='nav.launcher'] span,
+[data-link-to='learning'] span, 
+.side-panel__modal .artdeco-modal__dismiss :active, 
+.right-rail-container{
+  display:none;
+}
+
+.side-panel-is-open .side-panel__modal {
+    border-radius: 0;
+}
+
+.side-panel__content {
+    padding-bottom: 32px;
+    padding-top: 25px;
+    margin-top: 0;
+    border-top: solid thin lightgrey;
+}
+
+.pv-browsemap-section {
+    margin-top: 0;
+}
